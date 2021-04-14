@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+nav.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  /* width: 100vw; */
+}
+ul.navbar-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+div.right-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+ul li {
+  margin: 1vw;
+  list-style: none;
+  font-size: 1.1rem;
+}
+ul li a {
+  text-decoration: none;
+  color: #88949b;
+  padding: 0.5vw;
+  margin-left: 73%;
+  /* margin-top: 3%; */
+}
+.button-join button {
+  font-size: 1.1rem;
+  /* margin: 1rem; */
+  border: 1px solid seagreen;
+  padding: 1rem;
+}
+section.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
+  /* background-color: blue; */
+}
+.left-section {
+  /* width: ; */
+  font-size: 2rem;
+  height: 509px;
+  /* background-color: seagreen; */
+}
+
+.image img {
+  margin: 1rem;
+  height: 100%;
+  width: 100%;
+}
+.section-button button {
+  font-size: 1.1rem;
+  margin: 5rem;
+  border: 1px solid seagreen;
+  padding: 1rem;
+}
+.left-section p {
+  margin-top: 43px;
+}
+
+.left-section span {
+  color: springgreen;
+}
+.left-section a.read-more {
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+div.powered-by {
+  margin: 4rem;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #222;
+  height: 405px;
+  padding: 4rem;
+}
+
+.zuri-training {
+  color: white;
+  line-height: 2rem;
+  word-spacing: 0.2rem;
+}
+div.item1 {
+  display: flex;
+  height: 283px;
+  width: 50%;
+  background-color: whitesmoke;
+  padding-top: 7px;
+  padding-left: 12%;
+}
+div.item1 img.last-img {
+  position: relative;
+  right: 144%;
+  top: 45%;
+}
